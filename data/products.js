@@ -267,25 +267,25 @@ export const products = [
   }, 
   {
   id: "bc2847e9-5323-403f-b7cf-57fde044a956",
-  image: "images/plats/tacos/tacos.PNG",
+  image: "images/plats/Tacos/tacos.PNG",
   name: "Poulet (avec frites)",
   priceCents: 30
   },
   {
   id: "bc2847e9-5323-403f-b7cf-57fde044a957",
-  image: "images/plats/tacos/tacos.PNG",
+  image: "images/plats/Tacos/tacos.PNG",
   name: "Viande Hachée (avec frites)",
   priceCents: 35
   },
   {
   id: "bc2847e9-5323-403f-b7cf-57fde044a958",
-  image: "images/plats/tacos/tacos.PNG",
+  image: "images/plats/Tacos/tacos.PNG",
   name: "Mixte (avec frites)",
   priceCents: 32
   },
   {
   id: "bc2847e9-5323-403f-b7cf-57fde044a959",
-  image: "images/plats/tacos/tacos.PNG",
+  image: "images/plats/Tacos/tacos.PNG",
   name: "Crispy (avec frites)",
   priceCents: 30
   },
