@@ -513,13 +513,13 @@ export const products = [
 },
 {
   id: "Nn6343d1-5354-4379-b7cM-50NLEl125a845SF48",
-  image: "images/drinks/ali.Png",
+  image: "images/drinks/ali.jpg",
   name: "Eau Minérale 50cl",
   priceCents: 7
 },
 {
   id: "Nn6343d1-5354-4379-b7cM-50NLEl125a845JF49",
-  image: "images/drinks/oulmes.Png",
+  image: "images/drinks/oulmes.jpg",
   name: "Oulmes",
   priceCents: 13
 },
