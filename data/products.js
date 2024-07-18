@@ -75,19 +75,19 @@ export const products = [
   },
   {
     id: "5968897c-4d27-4872-89f6-5bcb052746d7",
-    image: "images/plats/pizza/Mer.jpg",
+    image: "images/plats/pizza/Mer.JPG",
     name: "Fruit de Mer-Petite ",
     priceCents: 35,
   },
   {
     id: "aad29d11-ea98-41ee-9285-b916638cac4a",
-    image: "images/plats/pizza/Mer.jpg",
+    image: "images/plats/pizza/Mer.JPG",
     name: "Fruit de Mer-Moyenne ",
     priceCents: 45,
   },
   {
     id: "04701903-bc79-49c6-bc11-1af7e3651358",
-    image: "images/plats/pizza/Mer.jpg",
+    image: "images/plats/pizza/Mer.JPG",
     name: "Fruit de Mer-Grande ",
     priceCents: 60,
   },
