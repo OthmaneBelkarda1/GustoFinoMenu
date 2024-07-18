@@ -237,7 +237,7 @@ export const products = [
   },
   {
     id: "10ed8504-57db-433c-b0a3-fc71a35c88a1",
-    image: "images/plats/burger/doubleburger.PNG",
+    image: "images/plats/burger/BurgerModel.PNG",
     name: "Double Burger",
     priceCents: 42,
   },
