@@ -71,6 +71,7 @@ await cart.forEach((item) => {
     })
 })
 .then(splice())
+.then(verified())
 .catch(error => console.error('Error:', error))
 });
 
@@ -87,4 +88,15 @@ function splice(){
     renderPayementSummary();
     renderOrderSummary();   
 console.log(cart);
+}
+  function  verified(){
+
+    document.querySelector('.button-primary').classList.add('verified');
+    document.querySelector('.verified').innerHTML='commande Validée';
+    function AddedMessage(){
+    setTimeout( ()=>
+        document.querySelector('.button-primary').classList.remove('verified')
+      ,2000)}
+     AddedMessage();
+
 }
