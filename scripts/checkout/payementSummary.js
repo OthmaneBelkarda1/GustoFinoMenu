@@ -56,7 +56,7 @@ export function renderPayementSummary(){
    
      validationButton.addEventListener('click',async()=>{
       place=document.querySelector('.place-number').value;
-
+      
 await cart.forEach((item) => {
     item.place = place;
     fetch('https://backendgusto.onrender.com/article', {
@@ -72,6 +72,7 @@ await cart.forEach((item) => {
 })
 .then(splice())
 .then(verified())
+.then(alert("Your order has been confirmed!"))
 .catch(error => console.error('Error:', error))
 });
 
@@ -99,4 +100,4 @@ console.log(cart);
       ,2000)}
      AddedMessage();
 
-}
+};
