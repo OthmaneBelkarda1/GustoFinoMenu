@@ -18,8 +18,8 @@ function success(position) {
 function error() {
     alert("Unable to retrieve your location.");
 }
-var restaurantLatitude = 33.91728703625411 ; // Example coordinates
-var restaurantLongitude =  -6.920001705841934; // Example coordinates
+var restaurantLatitude = 33.91578138293152 ; // Example coordinates
+var restaurantLongitude =  -6.918706889104768 ; // Example coordinates
 var geofenceRadius = 50; // Geofence radius in meters
 function checkGeofence(userLatitude, userLongitude) {
     var distance = calculateDistance(userLatitude, userLongitude, restaurantLatitude, restaurantLongitude);
