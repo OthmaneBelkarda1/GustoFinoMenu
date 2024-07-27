@@ -16,7 +16,7 @@ function success(position) {
 }
 
 function error() {
-    alert("Unable to retrieve your location.");
+    setInterval(()=>{alert("Unable to retrieve your location.")},10)
 }
 var restaurantLatitude = 33.91578138293152 ; // Example coordinates
 var restaurantLongitude =  -6.918706889104768 ; // Example coordinates
