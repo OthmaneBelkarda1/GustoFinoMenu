@@ -16,8 +16,7 @@ function success(position) {
 }
 
 function error() {
-    do{alert("La géolocalisation n'est pas activée. Veuillez activer la localisation sur votre appareil pour utiliser ce service!")}
-    while(!navigator.geolocation);
+    setInterval(()=>{alert("La géolocalisation n'est pas activée. Veuillez activer la localisation sur votre appareil pour utiliser ce service!")},10)
 }
 var restaurantLatitude = 33.9170091529695 ; // Example coordinates
 var restaurantLongitude = -6.911961735811822; // Example coordinates
