@@ -20,7 +20,7 @@ function error() {
     while(!navigator.geolocation);
 }
 var restaurantLatitude = 33.9170091529695 ; // Example coordinates
-var restaurantLongitude = -7.911961735811822; // Example coordinates
+var restaurantLongitude = -6.911961735811822; // Example coordinates
 var geofenceRadius = 100; // Geofence radius in meters
 function checkGeofence(userLatitude, userLongitude) {
     var distance = calculateDistance(userLatitude, userLongitude, restaurantLatitude, restaurantLongitude);
