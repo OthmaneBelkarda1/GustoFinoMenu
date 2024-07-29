@@ -70,9 +70,8 @@ await cart.forEach((item) => {
         place: `${item.place}`
     })
 })
-.then(splice())
-.then(verified())
 .then(alert("Your order has been confirmed!"))
+.then(splice())
 .catch(error => console.error('Error:', error))
 });
 
