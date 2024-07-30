@@ -159,7 +159,7 @@ footer{
 }
 body{
   box-sizing: border-box;
-  background-image:url(/images/BackGround.jpg); 
+  background-image: url('/images/BackGround.jpg');
   background-size: cover;
   background-repeat: no-repeat; 
   background-attachment: fixed;
