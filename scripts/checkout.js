@@ -18,9 +18,9 @@ function success(position) {
 function error() {
     setInterval(()=>{alert("La géolocalisation n'est pas activée. Veuillez activer la localisation sur votre appareil pour utiliser ce service!")},10)
 }
-var restaurantLatitude = 33.91700728826703; // Example coordinates
-var restaurantLongitude =  -6.91195988359844; // Example coordinates
-var geofenceRadius = 100; // Geofence radius in meters
+var restaurantLatitude = 33.91701196223027; // Example coordinates
+var restaurantLongitude =   -6.911959353925246; // Example coordinates
+var geofenceRadius = 200000; // Geofence radius in meters
 function checkGeofence(userLatitude, userLongitude) {
     var distance = calculateDistance(userLatitude, userLongitude, restaurantLatitude, restaurantLongitude);
     if (distance <= geofenceRadius) {

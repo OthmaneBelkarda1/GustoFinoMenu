@@ -23,7 +23,9 @@ export let addtocartFunction = (productId)=>{
     else
     cart.push({productId
   ,quantity
-});
+})
+window.location.href="checkout.html"
+;
     
     cart.forEach((cartItem)=>{
       totalQuantity=totalQuantity+cartItem.quantity;

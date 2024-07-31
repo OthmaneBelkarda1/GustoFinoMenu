@@ -3,7 +3,7 @@
   padding-left: 30px;
   padding-right: 30px;
 
-  margin-top: 140px;
+  margin-top: 30px;
   margin-bottom: 100px;
 
   /* margin-left: auto;
@@ -231,4 +231,16 @@
   background-color: rgba(0,0,0,0.5);
   z-index: 1000;
   display: none;
+}
+.addCommand{
+  justify-content: center;
+  border-color:black ;
+  border-style:solid;
+  padding: 10px;
+  display: flex;
+  margin: 100px 10px 30px 30px;
+  border-color: green;
+  color: green;
+  max-width: 2200px;
+  text-decoration: underline green;
 }
