@@ -13,6 +13,7 @@ document.querySelector('.call-waiter-button').addEventListener('click',async()=>
 })
 .then(alert("Your order has been confirmed!"))
 .then(place=0)
+.thenn(window.location.href="index.html")
 .catch(error => console.error('Error:', error))
 ;
 
