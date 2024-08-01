@@ -3,10 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/pages/callWaiter.css">
+    <link rel="stylesheet" href="styles/pages/index.css">
     <title>Document</title>
 </head>
 <body>
-    
-        
+    <div class="navbar">
+       
+        <img class="logo" src="images/Logo.png" >
+        <div class="validation"><a href="checkout.html">
+         <img class="cart-icon" src="images/icons/cart-icon.png">
+         <div class="cart-quantity js-cart-quantity">0</div>
+         <div class="cart-text">commandes</div></a>
+       </div>
+     </div>
+    <div class="call-waiter-container">
+  <p class="call-waiter-text">Enter le numéro de votre table:</p>
+  <input class="call-waiter-place" type="text">
+  <button class="call-waiter-button">Appeler le serveur</button>
+     </div>   
 </body>
+<script src="scripts/callWaiter.js"></script>
 </html>
