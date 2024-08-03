@@ -16,7 +16,7 @@ function error() {
 }
 var restaurantLatitude = 34.00624104994045; // Example coordinates
 var restaurantLongitude =   -6.84750471161997; // Example coordinates
-var geofenceRadius = 200; // Geofence radius in meters
+var geofenceRadius = 200000; // Geofence radius in meters
 function checkGeofence(userLatitude, userLongitude) {
     var distance = calculateDistance(userLatitude, userLongitude, restaurantLatitude, restaurantLongitude);
     if (distance <= geofenceRadius) {
