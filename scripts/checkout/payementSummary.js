@@ -58,22 +58,26 @@ export function renderPayementSummary(){
       place=document.querySelector('.place-number').value;
       
 await cart.forEach((item) => {
-    item.place = place;
+    
     fetch('https://backendgusto.onrender.com/article', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json'
     },
     body: JSON.stringify({
+        name:`${item.name}`,
         productId: `${item.productId}`,
         quantity: `${item.quantity}`,
-        place: `${item.place}`
+        place: `${place}`
     })
 })
-.then(alert("Votre ordre est confirmé!"))
-.then(splice())
-.catch(error => console.error('Error:', error))
-});
+
+;
+
+
+})
+alert("Votre ordre est confirmé!");
+splice();
 
   
       
