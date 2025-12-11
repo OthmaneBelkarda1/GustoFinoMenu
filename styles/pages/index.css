@@ -118,51 +118,6 @@ h1{
  justify-content: space-around;
  margin-bottom: 40px;
 }
-footer{
-  background-color:  rgb(2, 69, 7);
-  color: beige;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly ;
-  position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 90px;
-    align-items: center;
-}
-.phone-icon{
-  width: 20px;
-  height: 20px;
-  padding: 15px
-  
-}
-.instagram-icon{
-  width: 30px;
-  height: 30px;
-  padding-top: 8px;
-  padding-right: 5px;
-}
-.phone{
-  display: flex;
-  flex-direction: row;
-}
-.number{
-  font-size: 15px;
-  color: white;
-}
-.instagram{
-  display: flex;
-  flex-direction: row;
-  justify-content: center ;
-}
-/*body{
-  box-sizing: border-box;
-  background-image: url('/images/BackGround.jpg');
-  background-size: cover;
-  background-repeat: no-repeat; 
-  background-attachment: fixed;
-}*/
 .container3{
   display: flex;
   flex-direction: column;
@@ -174,25 +129,88 @@ footer{
 .snack-img{
   padding-left: 20px;
 }
-.waiter-icon{
-  width: 60px;
-  height: 50px;
-  padding-top: 7px;
-}
-.call-waiter{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.waiter-call{
-  color: white;
-  font-style: normal;
-  font-weight: 100;
-  font-size: small;
-}
 .imge{
   width: 100%;
   border-width: 2px;
   border-radius: 30px;
+}
+footer {
+  background: linear-gradient(135deg, rgb(1, 49, 5), rgb(3, 85, 10));
+  color: beige;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+  padding: 0 20px;
+  backdrop-filter: blur(6px);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 -4px 25px rgba(0, 0, 0, 0.4);
+  z-index: 999;
+}
+
+/* Icons */
+.phone-icon, .instagram-icon, .waiter-icon {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.phone-icon {
+  width: 22px;
+  height: 22px;
+  padding: 15px;
+}
+
+.instagram-icon {
+  width: 32px;
+  height: 32px;
+  padding-top: 8px;
+  padding-right: 5px;
+}
+
+.waiter-icon {
+  width: 60px;
+  height: 55px;
+}
+
+/* Items container */
+.phone, .instagram, .call-waiter {
+  display: flex;
+  align-items: center;
+}
+
+.call-waiter {
+  flex-direction: column;
+  gap: 3px;
+  text-align: center;
+}
+
+.waiter-link {
+  text-decoration: none;
+}
+
+/* Hover effects */
+.instagram:hover .instagram-icon,
+.phone:hover .phone-icon,
+.waiter-link:hover .waiter-icon {
+  transform: scale(1.15);
+  opacity: 0.85;
+}
+
+/* Text */
+.number, .waiter-call {
+  color: white;
+}
+
+.number {
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+.waiter-call {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.1;
 }
